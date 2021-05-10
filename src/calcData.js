@@ -1,0 +1,63 @@
+export const calcData = [
+  {
+    zero: { label: "0", bgColor: "#66666E", type: "number", color: "#fff" },
+    one: { label: "1", bgColor: "#66666E", type: "number", color: "#fff" },
+    two: { label: "2", bgColor: "#66666E", type: "number", color: "#fff" },
+    three: { label: "3", bgColor: "#66666E", type: "number", color: "#fff" },
+    four: { label: "4", bgColor: "#66666E", type: "number", color: "#fff" },
+    five: { label: "5", bgColor: "#66666E", type: "number", color: "#fff" },
+    six: { label: "6", bgColor: "#66666E", type: "number", color: "#fff" },
+    seven: { label: "7", bgColor: "#66666E", type: "number", color: "#fff" },
+    eight: { label: "8", bgColor: "#66666E", type: "number", color: "#fff" },
+    nine: { label: "9", bgColor: "#66666E", type: "number", color: "#fff" },
+    plus: {
+      label: "+",
+      bgColor: "#66666E",
+      type: "operator",
+      color: "#54a37b",
+    },
+    minus: {
+      label: "-",
+      bgColor: "#66666E",
+      type: "operator",
+      color: "#54a37b",
+    },
+    multiple: {
+      label: "*",
+      bgColor: "#66666E",
+      type: "operator",
+      color: "#54a37b",
+    },
+    divide: {
+      label: "/",
+      bgColor: "#66666E",
+      type: "operator",
+      color: "#54a37b",
+    },
+    equal: {
+      label: "=",
+      bgColor: "#54a37b",
+      type: "operator",
+      color: "#fff",
+    },
+    percentage: {
+      label: "%",
+      bgColor: "#66666E",
+      type: "operator",
+      color: "#54a37b",
+    },
+    clear: {
+      label: "C",
+      bgColor: "#66666E",
+      type: "operator",
+      color: "#f74b38",
+    },
+    backspace: {
+      label: "CE",
+      bgColor: "#66666E",
+      type: "operator",
+      color: "#e86658",
+    },
+    decimal: { label: ".", bgColor: "#66666E", type: "decimal", color: "#fff" },
+  },
+];
